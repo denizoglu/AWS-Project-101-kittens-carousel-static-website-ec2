@@ -1,7 +1,6 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description: |
-  ALperle yaptigimiz
-Parameters:
+  Alperle yaptigimiz
   
 Resources:
   Project101KittensCarouselStaticWebsiteEC2:
@@ -17,7 +16,7 @@ Resources:
           Value: Project-101-kittens-carousel-static-website-ec2
         - Key: ProjectType
           Value: AWS Project
-      UserData: 
+      UserData:
         #! /bin/bash
         yum update -y
         yum install httpd -y
